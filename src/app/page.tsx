@@ -2,6 +2,10 @@ import React from "react";
 import imageHero from "../../public/images/image-hero.png";
 import Image from "next/image";
 import CS_Description from "@/components/section/CS_Description";
+import CS_Themes from "@/components/section/CS_Themes";
+import CS_TabsThemes from "@/components/section/CS_TabsThemes";
+import CS_WebDeliver from "@/components/section/CS_WebDeliver";
+import CS_PricingSales from "@/components/section/CS_PricingSales";
 
 export default function Home() {
     return (
@@ -49,6 +53,10 @@ export default function Home() {
             </section>
             <section className="w-10/12 mx-auto ">
                 <CS_Description />
+                <CS_Themes />
+                <CS_TabsThemes />
+                <CS_WebDeliver />
+                <CS_PricingSales />
             </section>
         </main>
     );

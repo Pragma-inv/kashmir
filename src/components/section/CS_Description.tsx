@@ -93,7 +93,7 @@ const CS_Description = () => {
                         The Committed Long Lasting Love
                     </h1>
                 </article>
-                <article className="my-10 hidden overflow-x-scroll no-scrollbar space-x-10 md:flex">
+                <article className="my-10 overflow-x-scroll no-scrollbar space-x-10 md:flex">
                     {LIST_CARD.map((item, index) => {
                         return (
                             <div key={index} className="w-96 h-11/12 rounded">
